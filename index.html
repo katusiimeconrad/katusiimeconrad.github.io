@@ -10,10 +10,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Katusiime Conrad</title>
 </head>
-<body>
-<header class="bg-gray-800 text-white">
+<body class="min-h-screen">
+
+<header class="bg-gray-800 text-white absolute inset-x-0 top-0 z-50 ">
     <div class="container mx-auto py-4 px-6 flex justify-between items-center">
-        <h1 class="font-bold text-xl">My Portfolio</h1>
+        <h1 class="font-bold text-xl">Katusiime Conrad</h1>
         <nav>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:text-gray-400">Home</a></li>
@@ -24,92 +25,51 @@
         </nav>
     </div>
 </header>
-<main>
+<main class="flex-grow">
     <section class="bg-gray-100 py-12">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Welcome to my Portfolio</h2>
-            <div class="max-w-4xl mx-auto">
-                <p class="text-gray-700 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac mauris nunc. Quisque sit amet
-                    sodales
-                    dolor. Nulla eget sapien vitae arcu malesuada auctor ut id elit. Ut facilisis purus at sapien
-                    placerat
-                    sagittis.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="bg-white py-12">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">About Me</h2>
-            <div class="max-w-4xl mx-auto">
-                <p class="text-gray-700 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac mauris nunc. Quisque sit amet
-                    sodales
-                    dolor. Nulla eget sapien vitae arcu malesuada auctor ut id elit. Ut facilisis purus at sapien
-                    placerat
-                    sagittis.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="bg-gray-100 py-12">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">My Projects</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="project-card bg-white rounded-lg shadow-md p-4">
-                    <h2 class="text-xl font-bold mb-2">Project 1</h2>
-                    <p class="text-gray-700 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac mauris nunc. Qu isque sit amet
-                        sodales dolor.
-                        Nulla eget sapien vitae arcu malesuada auctor ut id elit. Ut facilisis purus at sapien placerat
-                        sagittis.
-                    </p>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        View project
-                    </button>
+        <div class="bg-white">
+            <div class="relative isolate px-6 pt-14 lg:px-8">
+                <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+                    <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+                         viewBox="0 0 1155 678">
+                        <path fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)" fill-opacity=".3"
+                              d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"/>
+                        <defs>
+                            <linearGradient id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533" x1="1155.49" x2="-78.208"
+                                            y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#9089FC"/>
+                                <stop offset="1" stop-color="#FF80B5"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
                 </div>
-                <div class="project-card bg-white rounded-lg shadow-md p-4">
-                    <h2 class="text-xl font-bold mb-2">Project 2</h2>
-                    <p class="text-gray-700 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac mauris nunc. Quisque sit amet
-                        sodales
-                        dolor. Nulla eget sapien vitae arcu malesuada auctor ut id elit. Ut facilisis purus at sapien
-                        placerat
-                        sagittis.
-                    </p>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        View project
-                    </button>
-                </div>
-                <div class="project-card bg-white rounded-lg shadow-md p-4">
-                    <h2 class="text-xl font-bold mb-2">Project 3</h2>
-                    <p class="text-gray-700 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac mauris nunc. Quisque sit amet
-                        sodales
-                        dolor. Nulla eget sapien vitae arcu malesuada auctor ut id elit. Ut facilisis purus at sapien
-                        placerat
-                        sagittis.
-                    </p>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        View project
-                    </button>
+                <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                    <div class="text-center">
+                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Welcome to my
+                            Portfolio</h1>
+                        <p class="mt-6 text-lg leading-8 text-gray-600"> Hello and welcome to my portfolio! I'm thrilled
+                            to have you here. I am a passionate Software and this page is a representation of my journey
+                            so far. From my educational background to my work experiences, you'll find everything you
+                            need to know about me here.
+
+                            In this portfolio, I also showcase my projects that I've worked on over the years. They have
+                            not only helped me grow as a professional but also allowed me to explore my creativity and
+                            skills. I hope you find them interesting and inspiring.
+
+                            Lastly, I'd love to hear from you! Whether you want to collaborate on a project or just say
+                            hello, feel free to get in touch through the contact section.
+
+                            Thank you for visiting my page, and I hope you enjoy exploring my work.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
+
 <footer class="bg-gray-800 text-white py-4">
     <div class="container mx-auto px-6 flex justify-between items-center">
-        <p class="text-sm">My Portfolio &copy; 2023</p>
-        <nav>
-            <ul class="flex space-x-4">
-                <li><a href="#" class="hover:text-gray-400">Home</a></li>
-                <li><a href="#" class="hover:text-gray-400">About</a></li>
-                <li><a href="#" class="hover:text-gray-400">Projects</a></li>
-                <li><a href="#" class="hover:text-gray-400">Contact</a></li>
-            </ul>
-        </nav>
+        <p class="text-sm">Katusiime Conrad &copy; 2023</p>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"
